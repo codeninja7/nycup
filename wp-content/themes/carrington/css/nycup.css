@@ -1,0 +1,180 @@
+#header .home-link,
+#header .logo-int,
+#header-nav ul li,
+#content.home h2, #content.category h1,
+#content .excerpt .title,
+#content .excerpt .more,
+#content h1,
+#content .authors h2,
+#comments h3,
+#tec-content .tec-cal-title,
+#tec-content .tec-month-nav,
+#tec-content .tec-calendar th,
+#tec-content .tec-calendar .daynum,
+.pagination,
+#sidebar h2,
+#sidebar .eventsListWidget .wrapper,
+#sidebar .more,
+#sidebar .widget_contact_widget .img-wrapper a,
+#sidebar .widget_follow_us_widget a,
+#sidebar .widget_follow_us_widget span,
+#mailchimp-form-container h2,
+#mailchimp-form-container label,
+#mailchimp-form-container #mc_signup_submit {
+	font-family:'BebasNeueRegular', Arial, sans-serif;
+}
+
+#header .logo-nyc, #header .logo-up{
+	font-family:'DowncomeRegular',Arial,sans-serif;
+}
+
+#header .logo-nyc, #header .logo-up, #header .logo-int {}
+
+body{background:#EFEFEF url(../img/bg.jpg) center top no-repeat fixed;font-family:Arial, sans-serif}
+#header {background-color:transparent}
+#header .wrapper{position:relative}
+#header .home-link{font-size:30px;line-height:261px;text-align:center;text-decoration:none;width:300px;height:200px;position:absolute;top:35px;left:295px}
+#header .logo-nyc, #header .logo-up {font-size:50px;color:#FFF;position:absolute}
+#header .logo-nyc {top:87px;left:40px}
+#header .logo-up {top:87px;left:595px;}
+#header .logo-int {font-size:19px;color:#FFF;position:absolute;top:135px;left:197px}
+#header-nav {text-align:center}
+#header-nav ul {display:inline-block;position:relative;top:255px;}
+#header-nav ul li{font-size:26px;line-height:28px;color:#FFF;float:left;text-shadow:0 0 3px #000;position:relative}
+#header-nav ul li a{text-decoration:none;padding:0 15px 60px;;display:block;float:left;}
+#header-nav ul li a:hover{color:#AB0505;text-shadow:0 0 3px #EFEFEF}
+#header-nav ul li.last-menu-item em{display:none;float:left;}
+#header-nav ul li .sub-menu {background:rgba(0,0,0,.8);width:175px;padding:10px 0;position:absolute;top:60px;left:0;z-index:1;overflow:hidden;display:none;opacity:0;filter:alpha(opacity=0);box-shadow:0 0 5px #000;-moz-box-shadow:0 0 5px #000)}
+#header-nav ul li .sub-menu li {font-size:18px;line-height:35px;text-align:left}
+#header-nav ul li .sub-menu li a {padding:0 20px}
+#header-nav ul li .sub-menu li a:hover {text-shadow:none}
+#header-nav ul li .sub-menu em {display:none}
+
+#main {margin:0}
+#main .main-wrapper{background:#FFF;width:850px;padding:23px 20px;box-shadow:0 0 7px #000;-moz-box-shadow:0 0 7px #000}
+
+#content {width:530px;margin:0;padding:0 20px 0 0;float:left}
+#content h1 {font-size:40px;line-height:37px;color:#000;text-decoration:none;padding:0 0 5px;display:block}
+#content .by-line{font:13px/15px Arial, sans-serif;color:#000;font-weight:normal;margin-bottom:20px;padding:0 0 14px;border-bottom:1px solid #000;display:block}
+#content .by-line a{color:#AB0505;text-decoration:none}
+#content .full-content {width:530px;overflow:hidden}
+#content .entry-content a{color:#AB0505;text-decoration:none}
+#content .entry-content {margin-bottom:30px;padding-top:15px;}
+#content .entry-content img{margin:0 20px 20px 0;}
+#content .entry-content p {font-size:13px;line-height:17px;}
+#content .entry-content strong {font-weight:bold}
+#content .entry-content h2{font-weight:bold}
+#content .filed {font-size:12px;font-weight:bold}
+#content .filed a {color:#AB0505;text-decoration:none}
+#content .entry-content .wp-caption img{margin-bottom:2px;}
+#content .entry-content .wp-caption-text {font-size:9px;text-align:left;padding-bottom:20px;}
+#content .wp-caption{background:none;margin:0;padding:0;border:0}
+
+#content.home h2, #content.category h1 {font-size:30px;line-height:30px;margin:0 0 50px;padding:0 0 9px 0;border-bottom:2px solid #000}
+#content .excerpt {margin-bottom:60px;}
+#content .excerpt .title{font-size:40px;line-height:37px;color:#000;text-decoration:none;padding:0 0 5px;display:block}
+#content .excerpt .title:hover{color:#AB0505}
+#content .excerpt img {margin:0 20px 0 0}
+#content .excerpt a{color:#AB0505;text-decoration:none}
+#content .excerpt p {font-size:13px;line-height:17px;margin-bottom:20px;}
+#content .excerpt .more{font-size:18px;color:#AB0505;cursor:pointer}
+#content .excerpt .more em{display:inline-block;width:0;height:0;border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #AB0505;position:relative;top:-1px;left:3px}
+
+#content #profilebox {margin-bottom:25px;border-bottom:2px solid #000;}
+#content #profilebox h1 {margin-bottom:10px;}
+#content #profilebox img {margin:0 20px 20px 0;float:left}
+#content #profilebox p {font-size:13px;line-height:15px;margin-bottom:20px;}
+#content #profilebox a {font-weight:bold;color:#333;text-decoration:none;}
+#content #profilebox a:hover {color:#AB0505}
+
+#content.authors-index h1{margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid #000}
+#content .authors li {width:100%;margin-bottom:20px;display:block;}
+#content .authors h2 {padding-bottom:14px;}
+#content .authors h2 a{font-size:30px;color:#000;text-decoration:none}
+#content .authors h2 a:hover{color:#AB0505}
+#content .authors img {width:200px;margin:0 20px 20px 0;display:block;float:left}
+#content .authors p {font-size:13px;line-height:15px;width:310px;margin-bottom:20px;display:block;float:left}
+#content .authors .email {font-weight:bold;color:#333;text-decoration:none;}
+#content .authors .email:hover {color:#AB0505}
+#content .authors hr {background:#000;width:530px;height:1px;border:none;clear:both;}
+
+#content #tec-event-meta {margin:0 0 20px;border:0;border-bottom:1px solid #000}
+#tec-content #tec-events-calendar-header {text-align:center}
+#tec-content .tec-cal-title {font-size:36px;width:100%;}
+#tec-content .tec-month-nav {width:100%;left:0}
+#tec-content .tec-month-nav a{color:#333;text-decoration:none}
+#tec-content .tec-month-nav a:hover{color:#AB0505}
+#tec-content select.tec-events-dropdown {position:relative;top:-3px;border:1px solid #CCC}
+#tec-content .ical,#tec-content .tec-calendar-buttons {display:none}
+#tec-content .tec-calendar,#tec-content .tec-calendar td {border:1px solid #ccc}
+#tec-content .tec-calendar th{font-size:18px;color:#333;text-shadow:0 0 0 #FFF}
+#tec-content .tec-calendar .daynum {font-size:16px;}
+#tec-content .tec-calendar td.tec-present .daynum {background-color:#444}
+#tec-content .tec-calendar td a {font-size:11px;color:#333;text-decoration:none}
+#tec-content .tec-calendar td a:hover {color:#AB0505}
+#tec-content .tec-tooltip .tec-event-title {background-color:#333}
+
+#comments h3 {font-size:30px;line-height:30px;margin:0 0 20px;padding:30px 0 9px 0;border-bottom:2px solid #000}
+
+.pagination {font-size:18px;text-align:center;background:none}
+.pagination span.page-numbers {font-weight:normal;color:#AB0505}
+.pagination a.page-numbers {color:#333;text-decoration:none;border:none}
+.pagination a.page-numbers:hover {color:#AB0505}
+
+#sidebar {background:none;width:300px;margin:0;padding:0;float:left;}
+#sidebar .wrapper {padding:0}
+#sidebar h2 {font-size:30px;line-height:30px;margin:0 0 20px;padding:0 0 9px 0;border-bottom:2px solid #000}
+#sidebar .more {font-size:20px;color:#333;text-decoration:none;}
+#sidebar .more em{display:inline-block;width:0;height:0;border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #333;position:relative;top:-2px;left:5px}
+#sidebar .more:hover {color:#AB0505}
+#sidebar .more:hover em {border-left:8px solid #AB0505;}
+
+#sidebar .eventsListWidget {margin-bottom:25px;}
+#sidebar .eventsListWidget .wrapper {background:#000;width:300px;margin-bottom:15px;position:relative;overflow:hidden}
+#sidebar .eventsListWidget .placeholder {width:300px;height:70px;}
+#sidebar .eventsListWidget .backdrop {background:#000;width:300px;height:70px;position:absolute;bottom:0;left:0;opacity:0.8;filter:alpha(opacity:80);z-index:1}
+#sidebar .eventsListWidget .wrapper a,
+#sidebar .eventsListWidget .wrapper span {font-size:24px;line-height:25px;color:#FFF;text-decoration:none;width:260px;height:25px;padding:0 15px;position:absolute;bottom:33px;left:0px;z-index:2;overflow:hidden;}
+#sidebar .eventsListWidget .wrapper span {bottom:8px}
+#sidebar .eventsListWidget p {font-size:13px;color:#333;line-height:18px;margin-bottom:10px}
+#sidebar .eventsListWidget li {margin-bottom:30px}
+
+#sidebar .widget_contact_widget .img-wrapper {width:300px;height:200px;margin-bottom:15px;position:relative;overflow:hidden}
+#sidebar .widget_contact_widget .backdrop {background:#000;width:300px;height:70px;position:absolute;bottom:0;left:0;opacity:0.8;filter:alpha(opacity:80);z-index:1}
+#sidebar .widget_contact_widget .img-wrapper a {font-size:24px;line-height:25px;color:#FFF;text-decoration:none;width:260px;padding:0 15px;position:absolute;left:0px;z-index:2}
+#sidebar .widget_contact_widget .name {top:142px;}
+#sidebar .widget_contact_widget .email {top:166px;}
+#sidebar .widget_contact_widget .description {font-size:13px;color:#333;line-height:18px;margin-bottom:10px}
+
+#sidebar .widget_follow_us_widget ul{width:300px;height:65px;margin-bottom:15px;}
+#sidebar .widget_follow_us_widget li{text-align:center;width:75px;height:65px;float:left;background:url(../img/follow-us.png) 0 0 no-repeat scroll;position:relative}
+#sidebar .widget_follow_us_widget a,
+#sidebar .widget_follow_us_widget span {font-size:16px;color:#000;text-decoration:none;padding-top:50px;display:block;cursor:pointer}
+#sidebar .widget_follow_us_widget a:hover {color:#AB0505}
+#sidebar .widget_follow_us_widget .facebook {background-position:20px 0;}
+#sidebar .widget_follow_us_widget .twitter {background-position:16px -70px;}
+#sidebar .widget_follow_us_widget .rss {background-position:21px -140px;}
+#sidebar .widget_follow_us_widget .subscribe {background-position:21px -210px;}
+
+#sidebar .widget_facebook_like_box_widget {margin-bottom:25px;}
+#sidebar .widget_facebook_like_box_widget .fb-wrapper{overflow:hidden}
+#sidebar .widget_facebook_like_box_widget iframe{position:relative;top:-1px;left:-1px;}
+#sidebar .widget_facebook_like_box_widget hr{height:1px;background-color:#FFF;margin:0;border:0;position:relative;top:-2px;left:0;z-index:1}
+
+#mailchimp-form-container {background:#FFF;width:360px;margin-left:-200px;padding:20px;position:fixed;top:130px;left:50%;box-shadow:0 0 5px #000;-moz-box-shadow:0 0 5px #000);display:none;opacity:0;filter:alpha(opacity=0);z-index:4}
+#mailchimp-form-container h2 {font-size:24px;margin-bottom:30px;padding-bottom:9px;border-bottom:2px solid #000;}
+#mailchimp-form-container #mc_signup {padding:0}
+#mailchimp-form-container #mc_signup_form {background:#FFF;padding:0;border:0}
+#mailchimp-form-container .mc_merge_var{width:360px;height:40px}
+#mailchimp-form-container input {font-size:13px;width:200px;height:13px;padding:7px 15px 6px;border:1px solid #CCC;float:left}
+#mailchimp-form-container label {font-size:20px;line-height:26px;width:128px;height:26px;float:left}
+#mailchimp-form-container #mc_signup_submit {background-color:#FFF;font-size:30px;color:#333;margin-top:12px;border:0;height:35px;float:none;cursor:pointer}
+#mailchimp-form-container #mc_signup_submit:hover {color:#AB0505;}
+#mailchimp-form-container .mc_required {color:#AB0505}
+#mailchimp-form-container #mc_message {font-size:13px;margin-bottom:25px;}
+#mailchimp-form-container br,
+#mailchimp-form-container #mc-indicates-required {display:none}
+
+#dropback-underlay {background:#000;width:100%;height:100%;position:fixed;top:0;left:0;display:none;opacity:0;filter:alpha(opacity=0);z-index:3}
+
+#footer .wrapper{font-size:11px;color:#777;text-align:right;padding:12px 20px 75px 0}
