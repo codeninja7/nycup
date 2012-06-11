@@ -37,36 +37,35 @@ post_class($alt_text,$post->ID);
 $class = ob_get_contents();
 ob_end_clean();
 ?>
-	<div id=wrapper>
-	<div align=center style="z-index:-1;" class="event">
+	<div class=wrapper>
+	<div align=center class="event">
+        <a href="<?php echo get_permalink($post->ID) ?>">
     		<?php if(has_post_thumbnail($post->ID, 'thumbnail')):
 	        $image_id = get_post_thumbnail_id($post->ID);
-	        $image_url = wp_get_attachment_image_src($image_id, 'thumbnail', true); ?>
-	        <a href="<?php echo get_permalink($post->ID) ?>" class="post-thumb"><img src="<?php echo $image_url[0]; ?>" alt="<?php echo $post->post_title ?>" /></a>
-		<?php endif; ?>
-		<!--<div class="backdrop_events">//-->
-			<div style="font-family:'BebasNeueRegular'; font-size:170%;" class="event">
-				<a href="<?php echo get_permalink($post->ID) ?>"><?php echo $post->post_title ?></a>
-			</div>
-		<!--</div>//-->
+	        $image_url = wp_get_attachment_image_src($image_id, 'medium', true); ?>
+            <img src="<?php echo $image_url[0]; ?>" alt="<?php echo $post->post_title ?>" />
+		    <?php endif; ?>
+		    <div class="backdrop"></div>
+            <span><?php echo $post->post_title ?></span>
+        </a>
 	</div>
-<li <?php echo $class ?>>
-			<div style="font-size:80%; z-index:2;"class="when">
-			<?php
-				$space = false;
-				$output = '';
-				echo tribe_get_start_date( $post->ID ); 
+    <li <?php echo $class ?>>
+        <div style="font-size:80%; z-index:2;"class="when">
+        <?php
+            $space = false;
+            $output = '';
+            echo tribe_get_start_date( $post->ID );
 
-         			if( tribe_is_multiday( $post->ID ) || !$event->AllDay ) {
-            				echo ' - ' . tribe_get_end_date($post->ID);
-        			 }
+                if( tribe_is_multiday( $post->ID ) || !$event->AllDay ) {
+                        echo ' - ' . tribe_get_end_date($post->ID);
+                 }
 
-				if($event->AllDay) {
-					echo ' <small>('.__('All Day','tribe-events-calendar').')</small>';
-         			}
-      			?> 
-			</div>
-		</li>
+            if($event->AllDay) {
+                echo ' <small>('.__('All Day','tribe-events-calendar').')</small>';
+                }
+            ?>
+        </div>
+    </li>
 
 <?php $alt_text = ( empty( $alt_text ) ) ? 'alt' : ''; ?>
 </div>

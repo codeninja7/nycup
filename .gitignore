@@ -13,3 +13,8 @@ wp-content/cache/*
 wp-content/cache/supercache/*
 readme.html
 license.txt
+encodings.xml
+misc.xml
+modules.xml
+nycup.iml
+vcs.xml
