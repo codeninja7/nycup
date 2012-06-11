@@ -21,7 +21,8 @@
 #mailchimp-form-container h2,
 #mailchimp-form-container label,
 #mailchimp-form-container #mc_signup_submit,
-#sidebar .eventsListWidget .dig-in{
+#sidebar .eventsListWidget .dig-in,
+#content .tribe_events h2{
 	font-family:'BebasNeueRegular', Arial, sans-serif;
 }
 
@@ -65,11 +66,27 @@ body{background:#EFEFEF url(../img/bg.jpg) center top no-repeat fixed;font-famil
 #content .entry-content p {font-size:13px;line-height:17px;}
 #content .entry-content strong {font-weight:bold}
 #content .entry-content h2{font-weight:bold}
-#content .filed {font-size:12px;font-weight:bold}
+#content .filed {font-size:12px;font-weight:bold;line-height:15px;}
 #content .filed a {color:#AB0505;text-decoration:none}
 #content .entry-content .wp-caption img{margin-bottom:2px;}
 #content .entry-content .wp-caption-text {font-size:9px;text-align:left;padding-bottom:20px;}
 #content .wp-caption{background:none;margin:0;padding:0;border:0}
+
+
+#content .tribe_events h2 {font-size:40px;line-height:37px;color:#000;text-decoration:none;padding:0 0 5px;display:block}
+#content .tribe_events span.back{font:13px/15px Arial, sans-serif;color:#000;font-weight:normal;margin-bottom:20px;padding:0 0 14px;border-bottom:1px solid #000;display:block}
+#content .tribe_events span.back a{color:#AB0505;text-decoration:none}
+#content .tribe_events a{color:#AB0505;text-decoration:none}
+#content .tribe_events {margin-bottom:30px;padding-top:15px;}
+#content .tribe_events img{margin:0 20px 20px 0;}
+#content .tribe_events p {font-size:13px;line-height:17px;}
+#content .tribe_events strong {font-weight:bold}
+#content .filed {font-size:12px;font-weight:bold;line-height:15px;}
+#content .filed a {color:#AB0505;text-decoration:none}
+#content .tribe_events .wp-caption img{margin-bottom:2px;}
+#content .tribe_events .wp-caption-text {font-size:9px;text-align:left;padding-bottom:20px;}
+#content .wp-caption{background:none;margin:0;padding:0;border:0}
+
 
 #content.home h2, #content.category h1 {font-size:30px;line-height:30px;margin:0 0 50px;padding:0 0 9px 0;border-bottom:2px solid #000}
 #content .excerpt {margin-bottom:60px;}
