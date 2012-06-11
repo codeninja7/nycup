@@ -2,7 +2,7 @@
 wp-config.php
 wp-content/events-manager/
 wp-content/gallery/
-wp-content/profile-pic/
+wp-content/profile-pics/
 wp-content/uploads/
 wp-content/blogs.dir/
 wp-content/upgrade/*
@@ -11,6 +11,14 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
+favicon.ico
+400.shtml
+401.shtml
+403.shtml
+404.shtml
+500.php
+500.shtml
+default.html
 readme.html
 license.txt
 encodings.xml
