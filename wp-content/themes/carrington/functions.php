@@ -257,14 +257,18 @@ a:visited {
 
 }
 
-function filter_ptags_on_images($content)
-{
+http://images.nycup.shinobistudio.com/
+
+function filter_ptags_on_images($content) {
     $content = preg_replace('/<p>\\s*?(<a .*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s', '$1', $content);
     return $content;
 }
-
-// we want it to be run after the autop stuff... 10 is default.
+function replace_legacy_image_url_path($content) {
+    $content = preg_replace('/http:\/\/images.nycup.shinobistudio.com\//s', 'http://nycurbanproject.com/wp-content/uploads/', $content);
+    return $content;
+}
 add_filter('the_content', 'filter_ptags_on_images');
+add_filter('the_content', 'replace_legacy_image_url_path');
 
 
 include_once(CFCT_PATH.'functions/admin.php');
