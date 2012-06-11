@@ -257,8 +257,6 @@ a:visited {
 
 }
 
-http://images.nycup.shinobistudio.com/
-
 function filter_ptags_on_images($content) {
     $content = preg_replace('/<p>\\s*?(<a .*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s', '$1', $content);
     return $content;
