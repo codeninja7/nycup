@@ -75,7 +75,7 @@ body{background:#EFEFEF url(../img/bg.jpg) center top no-repeat fixed;font-famil
 #content .excerpt {margin-bottom:60px;}
 #content .excerpt .title{font-size:40px;line-height:37px;color:#000;text-decoration:none;padding:0 0 5px;display:block}
 #content .excerpt .title:hover{color:#AB0505}
-#content .excerpt img {margin:0 20px 0 0}
+#content .excerpt img {margin:0 20px 20px 0;float:left}
 #content .excerpt a{color:#AB0505;text-decoration:none}
 #content .excerpt p {font-size:13px;line-height:17px;margin-bottom:20px;}
 #content .excerpt .more{font-size:18px;color:#AB0505;cursor:pointer}
