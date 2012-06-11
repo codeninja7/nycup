@@ -43,7 +43,9 @@ ob_end_clean();
     		<?php if(has_post_thumbnail($post->ID, 'thumbnail')):
 	        $image_id = get_post_thumbnail_id($post->ID);
 	        $image_url = wp_get_attachment_image_src($image_id, 'medium', true); ?>
-            <img src="<?php echo $image_url[0]; ?>" alt="<?php echo $post->post_title ?>" />
+            <div class="imgWrap">
+                <img src="<?php echo $image_url[0]; ?>" alt="<?php echo $post->post_title ?>" />
+            </div>
 		    <?php endif; ?>
 		    <div class="backdrop"></div>
             <span><?php echo $post->post_title ?></span>
